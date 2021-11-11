@@ -1,5 +1,5 @@
 import './css/style.css';
 
-import './js/app';
+import './js/SortObj';
 
 // TODO: write your code in app.js

@@ -1,4 +1,4 @@
-/* eslint-disable linebreak-style */
+
 import sort from '../SortObj';
 
 const obj = {

@@ -1,12 +1,12 @@
-/* eslint-disable linebreak-style */
 export default function arrProperties(object, sortArr) {
   const arrObj = [];
   const copySortArr = [];
-  const notcopySortArr = []; // \n
-  // eslint-disable-next-line guard-for-in
+  const notcopySortArr = [];
+
   for (const prop in object) {
     arrObj.push({ key: prop, value: object[prop] });
   }
+
   arrObj.forEach((element) => {
     if (sortArr.includes(element.key)) {
       copySortArr.push(element);
